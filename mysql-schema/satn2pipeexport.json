@@ -1,0 +1,762 @@
+[
+	{
+		"TABLE_NAME" : "FAT_T101",
+		"COLUMN_NAME" : "id",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "FAT_T101",
+		"COLUMN_NAME" : "testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "FAT_T101",
+		"COLUMN_NAME" : "kravdoc",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "FAT_T101",
+		"COLUMN_NAME" : "execution",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "FAT_T101",
+		"COLUMN_NAME" : "acceptance_criteria",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "FAT_T101",
+		"COLUMN_NAME" : "result",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "FAT_T101",
+		"COLUMN_NAME" : "date",
+		"DATA_TYPE" : "date"
+	},
+	{
+		"TABLE_NAME" : "FAT_T101",
+		"COLUMN_NAME" : "attachments_text",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "FAT_T101",
+		"COLUMN_NAME" : "attachments_blob_1",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "FAT_T101",
+		"COLUMN_NAME" : "attachments_blob_2",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "FAT_T101",
+		"COLUMN_NAME" : "attachments_blob_3",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "FAT_T101",
+		"COLUMN_NAME" : "test_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_N2",
+		"COLUMN_NAME" : "satid",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "SAT_N2",
+		"COLUMN_NAME" : "testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_N2",
+		"COLUMN_NAME" : "kravdoc",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_N2",
+		"COLUMN_NAME" : "execution",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "SAT_N2",
+		"COLUMN_NAME" : "acceptance_criteria",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "SAT_N2",
+		"COLUMN_NAME" : "result",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_N2",
+		"COLUMN_NAME" : "date",
+		"DATA_TYPE" : "date"
+	},
+	{
+		"TABLE_NAME" : "SAT_N2",
+		"COLUMN_NAME" : "attachments_text",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_N2",
+		"COLUMN_NAME" : "attachments_blob_1",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_N2",
+		"COLUMN_NAME" : "attachments_blob_2",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_N2",
+		"COLUMN_NAME" : "attachments_blob_3",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_N2",
+		"COLUMN_NAME" : "test_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_T101",
+		"COLUMN_NAME" : "satid",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "SAT_T101",
+		"COLUMN_NAME" : "testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_T101",
+		"COLUMN_NAME" : "kravdoc",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_T101",
+		"COLUMN_NAME" : "execution",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "SAT_T101",
+		"COLUMN_NAME" : "acceptance_criteria",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "SAT_T101",
+		"COLUMN_NAME" : "result",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_T101",
+		"COLUMN_NAME" : "date",
+		"DATA_TYPE" : "date"
+	},
+	{
+		"TABLE_NAME" : "SAT_T101",
+		"COLUMN_NAME" : "attachments_text",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_T101",
+		"COLUMN_NAME" : "attachments_blob_1",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_T101",
+		"COLUMN_NAME" : "attachments_blob_2",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_T101",
+		"COLUMN_NAME" : "attachments_blob_3",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_T101",
+		"COLUMN_NAME" : "test_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_discharge",
+		"COLUMN_NAME" : "satid",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "SAT_discharge",
+		"COLUMN_NAME" : "testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_discharge",
+		"COLUMN_NAME" : "kravdoc",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_discharge",
+		"COLUMN_NAME" : "execution",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "SAT_discharge",
+		"COLUMN_NAME" : "acceptance_criteria",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "SAT_discharge",
+		"COLUMN_NAME" : "result",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_discharge",
+		"COLUMN_NAME" : "date",
+		"DATA_TYPE" : "date"
+	},
+	{
+		"TABLE_NAME" : "SAT_discharge",
+		"COLUMN_NAME" : "attachments_text",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_discharge",
+		"COLUMN_NAME" : "attachments_blob_1",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_discharge",
+		"COLUMN_NAME" : "attachments_blob_2",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_discharge",
+		"COLUMN_NAME" : "attachments_blob_3",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_discharge",
+		"COLUMN_NAME" : "test_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_power",
+		"COLUMN_NAME" : "satid",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "SAT_power",
+		"COLUMN_NAME" : "testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_power",
+		"COLUMN_NAME" : "kravdoc",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_power",
+		"COLUMN_NAME" : "execution",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "SAT_power",
+		"COLUMN_NAME" : "acceptance_criteria",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "SAT_power",
+		"COLUMN_NAME" : "result",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_power",
+		"COLUMN_NAME" : "date",
+		"DATA_TYPE" : "date"
+	},
+	{
+		"TABLE_NAME" : "SAT_power",
+		"COLUMN_NAME" : "attachments_text",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_power",
+		"COLUMN_NAME" : "attachments_blob_1",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_power",
+		"COLUMN_NAME" : "attachments_blob_2",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_power",
+		"COLUMN_NAME" : "attachments_blob_3",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_power",
+		"COLUMN_NAME" : "test_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_spill",
+		"COLUMN_NAME" : "satid",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "SAT_spill",
+		"COLUMN_NAME" : "testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_spill",
+		"COLUMN_NAME" : "kravdoc",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_spill",
+		"COLUMN_NAME" : "execution",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "SAT_spill",
+		"COLUMN_NAME" : "acceptance_criteria",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "SAT_spill",
+		"COLUMN_NAME" : "result",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_spill",
+		"COLUMN_NAME" : "date",
+		"DATA_TYPE" : "date"
+	},
+	{
+		"TABLE_NAME" : "SAT_spill",
+		"COLUMN_NAME" : "attachments_text",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_spill",
+		"COLUMN_NAME" : "attachments_blob_1",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_spill",
+		"COLUMN_NAME" : "attachments_blob_2",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_spill",
+		"COLUMN_NAME" : "attachments_blob_3",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_spill",
+		"COLUMN_NAME" : "test_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_unload",
+		"COLUMN_NAME" : "satid",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "SAT_unload",
+		"COLUMN_NAME" : "testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_unload",
+		"COLUMN_NAME" : "kravdoc",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_unload",
+		"COLUMN_NAME" : "execution",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "SAT_unload",
+		"COLUMN_NAME" : "acceptance_criteria",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "SAT_unload",
+		"COLUMN_NAME" : "result",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_unload",
+		"COLUMN_NAME" : "date",
+		"DATA_TYPE" : "date"
+	},
+	{
+		"TABLE_NAME" : "SAT_unload",
+		"COLUMN_NAME" : "attachments_text",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SAT_unload",
+		"COLUMN_NAME" : "attachments_blob_1",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_unload",
+		"COLUMN_NAME" : "attachments_blob_2",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_unload",
+		"COLUMN_NAME" : "attachments_blob_3",
+		"DATA_TYPE" : "mediumblob"
+	},
+	{
+		"TABLE_NAME" : "SAT_unload",
+		"COLUMN_NAME" : "test_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_T101",
+		"COLUMN_NAME" : "SPM_T101_id",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "SPM_T101",
+		"COLUMN_NAME" : "TSP_T101_kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_T101",
+		"COLUMN_NAME" : "FAT_T101_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_T101",
+		"COLUMN_NAME" : "FAT_T101_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_T101",
+		"COLUMN_NAME" : "SAT_T101_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_T101",
+		"COLUMN_NAME" : "SAT_T101_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_funk",
+		"COLUMN_NAME" : "SPM_funk_id",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "SPM_funk",
+		"COLUMN_NAME" : "URS_funk_kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_funk",
+		"COLUMN_NAME" : "SAT_spill_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_funk",
+		"COLUMN_NAME" : "SAT_spill_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_funk",
+		"COLUMN_NAME" : "SAT_N2_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_funk",
+		"COLUMN_NAME" : "SAT_N2_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_funk",
+		"COLUMN_NAME" : "SAT_discharge_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_funk",
+		"COLUMN_NAME" : "SAT_discharge_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_funk",
+		"COLUMN_NAME" : "SAT_unload_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_funk",
+		"COLUMN_NAME" : "SAT_unload_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_funk",
+		"COLUMN_NAME" : "SAT_power_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_funk",
+		"COLUMN_NAME" : "SAT_power_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_heat",
+		"COLUMN_NAME" : "SPM_heat_id",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "SPM_heat",
+		"COLUMN_NAME" : "TSP_heat_kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_heat",
+		"COLUMN_NAME" : "SAT_power_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_heat",
+		"COLUMN_NAME" : "SAT_power_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_pipe",
+		"COLUMN_NAME" : "SPM_pipe_id",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "SPM_pipe",
+		"COLUMN_NAME" : "TSP_pipe_kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_pipe",
+		"COLUMN_NAME" : "SAT_N2_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_pipe",
+		"COLUMN_NAME" : "SAT_N2_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_pipe",
+		"COLUMN_NAME" : "SAT_unload_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_pipe",
+		"COLUMN_NAME" : "SAT_unload_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_pipe",
+		"COLUMN_NAME" : "SAT_discharge_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_pipe",
+		"COLUMN_NAME" : "SAT_discharge_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_pipe",
+		"COLUMN_NAME" : "SAT_spill_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_pipe",
+		"COLUMN_NAME" : "SAT_spill_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_power",
+		"COLUMN_NAME" : "SPM_power_id",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "SPM_power",
+		"COLUMN_NAME" : "TSP_power_kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_power",
+		"COLUMN_NAME" : "SAT_power_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_power",
+		"COLUMN_NAME" : "SAT_power_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_pump",
+		"COLUMN_NAME" : "SPM_pump_id",
+		"DATA_TYPE" : "int"
+	},
+	{
+		"TABLE_NAME" : "SPM_pump",
+		"COLUMN_NAME" : "TSP_pump_kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_pump",
+		"COLUMN_NAME" : "SAT_discharge_testid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "SPM_pump",
+		"COLUMN_NAME" : "SAT_discharge_comment",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_T101",
+		"COLUMN_NAME" : "kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_T101",
+		"COLUMN_NAME" : "kravtext",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "TSP_T101",
+		"COLUMN_NAME" : "kategori",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_T101",
+		"COLUMN_NAME" : "verifikation",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_heat",
+		"COLUMN_NAME" : "kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_heat",
+		"COLUMN_NAME" : "kravtext",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "TSP_heat",
+		"COLUMN_NAME" : "kategori",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_heat",
+		"COLUMN_NAME" : "verifikation",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_pipe",
+		"COLUMN_NAME" : "kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_pipe",
+		"COLUMN_NAME" : "kravtext",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "TSP_pipe",
+		"COLUMN_NAME" : "kategori",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_pipe",
+		"COLUMN_NAME" : "verifikation",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_power",
+		"COLUMN_NAME" : "kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_power",
+		"COLUMN_NAME" : "kravtext",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "TSP_power",
+		"COLUMN_NAME" : "kategori",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_power",
+		"COLUMN_NAME" : "verifikation",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_pump",
+		"COLUMN_NAME" : "kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_pump",
+		"COLUMN_NAME" : "kravtext",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "TSP_pump",
+		"COLUMN_NAME" : "kategori",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "TSP_pump",
+		"COLUMN_NAME" : "verifikation",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "URS_auto",
+		"COLUMN_NAME" : "kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "URS_auto",
+		"COLUMN_NAME" : "kravtext",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "URS_auto",
+		"COLUMN_NAME" : "kategori",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "URS_auto",
+		"COLUMN_NAME" : "verifikation",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "URS_funk",
+		"COLUMN_NAME" : "kravid",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "URS_funk",
+		"COLUMN_NAME" : "kravtext",
+		"DATA_TYPE" : "text"
+	},
+	{
+		"TABLE_NAME" : "URS_funk",
+		"COLUMN_NAME" : "kategori",
+		"DATA_TYPE" : "varchar"
+	},
+	{
+		"TABLE_NAME" : "URS_funk",
+		"COLUMN_NAME" : "verifikation",
+		"DATA_TYPE" : "varchar"
+	}
+]

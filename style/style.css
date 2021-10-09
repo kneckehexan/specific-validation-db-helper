@@ -1,0 +1,538 @@
+/************************
+ * Fonts
+ ************************/
+
+@font-face {
+    font-family: CMUserif;
+    src: url("../font/cmu.serif-roman.ttf");
+}
+
+@font-face {
+    font-family: CMUserifbold;
+    src: url("../font/cmu.serif-bold.ttf");
+}
+
+@font-face {
+    font-family: CMUserifital;
+    src: url("../font/cmu.serif-italic.ttf");
+}
+
+@font-face {
+    font-family: CMUsansserif;
+    src: url("../font/cmu.sans-serif-medium.ttf");
+}
+
+@font-face {
+    font-family: CMUsansserifbold;
+    src: url("../font/cmu.sans-serif-bold.ttf");
+}
+
+@font-face {
+    font-family: CMUsansserifit;
+    src: url("../font/cmu.sans-serif-oblique.ttf");
+}
+
+
+/************************
+ * Bodies
+ ************************/
+body {
+    font-family: CMUserif, Times, serif;
+    line-height: 1.6;
+    font-size: 1.2em;
+    display: grid;
+    grid-template-columns: auto 4fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "sel content"
+        ". content";
+    grid-row-gap: 0px;
+    grid-column-gap: 5px;
+    background-color: #CCC;
+}
+
+main {
+    grid-area: content;
+    border-radius: 20px 5px 20px;
+    background-color: white;
+    margin: 0;
+    z-index: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 20px 20px;
+    border: 1px solid #454C5A;
+    max-height: 90vh;
+}
+
+#divkrav {
+  display: none;
+}
+#divtest {
+  display: none;
+}
+#divselspm {
+  display: none;
+}
+
+/**************************************
+ * Navigations
+ *************************************/
+.selection {
+  position: sticky;
+  top: 20px;
+  grid-area: sel;
+  border-radius: 20px 5px 20px;
+  z-index: 1;
+  overflow: auto;
+/*  display: flex;*/
+}
+
+#selectionform {
+  display: none;
+}
+
+.container {
+  top: 5px;
+  cursor: pointer;
+  margin: 20px auto 20px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #000;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+/************************
+ * Forms
+ ************************/
+
+form {
+    background-color: #454C5A;
+    padding: 1em;
+    color: white;
+    font-family: CMUsansserifbold, Arial, sans-serif;
+    border-radius: 20px 5px 20px;
+    margin-block-end: 0em;
+}
+
+fieldset {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: flex-start;
+    align-content: center;
+}
+
+/************************
+ * Articles
+ ************************/
+article {
+    text-align: justify;
+}
+
+/************************
+ * Sections
+ ************************/
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+/************************
+ * Headers
+ ************************/
+header {
+    font-family: CMUsansserif, Arial, sans-serif;
+}
+
+header h3 {
+    margin-bottom: 3px;
+}
+
+/************************
+ * Footers
+ ************************/
+
+/************************
+ * Asides
+ ************************/
+aside {
+    grid-area: aside;
+    padding: 0 1em 0 1em;
+}
+
+#resume-skills {
+    font-size: 0.8em;
+}
+
+#contact-aside {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+/************************
+ * Links
+ ************************/
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #626C80;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3A404D;
+    text-decoration: none;
+}
+
+a:active {
+    color: #131519;
+    text-decoration: none;
+}
+
+/************************
+ * Lists
+ ************************/
+ul {
+    list-style-type: "- ";
+    margin-top: 5px;
+}
+
+.ul-nostyle {
+    list-style-type: "";
+}
+
+/************************
+ * Texts
+ ************************/
+b {
+    font-family: CMUserifbold, Arial, sans-serif;
+}
+
+i, em {
+    font-family: CMUserifital, Arial, sans-serif;
+}
+
+.sup {
+    position: relative;
+    bottom: 1ex;
+    font-size: 80%;
+}
+
+.small-text {
+    font-size: 0.8em;
+}
+
+/************************
+ * Quotes
+ ************************/
+.quote-card-modal {
+    text-align: justify;
+    font-family: CMUserifital, Arial, sans-serif, italic;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D";
+    width: 70%;
+    border-left: 10px solid #7F7F7F;
+    background-color: #FFF;
+}
+
+.quote-card-modal:before{
+    color: #7F7F7F;
+    content: open-quote;
+    font-size: 2em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.rec-quotes {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.quote-card {
+    color: #CCC;
+    text-align: justify;
+    font-family: CMUserifital, Arial, sans-serif, italic;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D";
+    border-radius: 20px;
+    border-left: 10px solid #0A0B0D;
+    background-color: #454C5A;
+    box-shadow: 0.5em 0.5em 0.7em 0.1em #0A0B0D;
+}
+
+.quote-card:before{
+    color: #0A0B0D;
+    content: open-quote;
+    font-size: 2em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.quote-card-modal p {
+    display: inline;
+}
+
+.quote-card p {
+    display: inline;
+}
+
+/************************
+ * TABLES
+ ************************/
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.resume-table thead {
+  position: sticky;
+  top: 0;
+  background: #FFF;
+}
+
+td {
+  vertical-align: top;
+}
+
+.highlightRow{
+  background-color: #7F7F7F;
+  color: #FFF;
+}
+
+.cellclick{
+  text-align: center;
+}
+.cellclick td {
+  cursor: pointer;
+}
+
+.cellclick tr th:first-child, .cellclick tr td:first-child{
+  display: none;
+}
+
+.has-modal {
+    cursor: pointer;
+}
+
+.has-modal td {
+    border-radius: 3px;
+    transition: all .4s linear;
+}
+
+.resume-table th, .resume-table td {
+    padding: 0.5em;
+}
+
+.abbr td {
+  border-bottom: 1px solid #000;
+}
+
+.abbr th {
+  border-bottom: 3px solid #000;
+  text-align: center;
+}
+
+#translation-table-wrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  border-left: 1px solid black;
+  text-orientation: mixed;
+  writing-mode: vertical-rl;
+  margin-top: 10px;
+}
+
+#translation-table {
+  z-index: 2;
+  display: none;
+  background-color: #FFEDCC;
+  box-shadow: 10px 5px 10px #000;
+}
+
+#translation-table table tr {
+  background-color: #FFEDCC;
+}
+
+#translation-table th, #translation-table td{
+  border-bottom: 1px solid black;
+  padding: 5px
+}
+
+#close-translation-table {
+  text-align: right;
+}
+
+#simp th {
+  border-bottom: 0px solid white;
+  cursor: pointer;
+  text-align: right;
+}
+
+/************************
+ * Images
+ ************************/
+figcaption {
+    font-size: 0.8em;
+    font-style: italic;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.a-icon {
+    background-image: 
+        url("../media/img/assignments.svg"),
+        url("../media/img/line.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: center center, center top;
+    background-size: auto;
+}
+
+.e-icon {
+    background-image: 
+        url("../media/img/education.svg"),
+        url("../media/img/line.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: center center, center top;
+}
+
+.c-icon {
+    background-image: 
+        url("../media/img/courses.svg"),
+        url("../media/img/line.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: center center, center top;
+}
+
+.w-icon {
+    background-image: 
+        url("../media/img/work.svg"),
+        url("../media/img/line.svg");
+    background-repeat: no-repeat, repeat;
+    background-position: center center, center top;
+}
+
+.sm-icon {
+    font-family: "Avenir Black", Arial, sans-serif;
+}
+
+/************************
+ * Modals
+ ************************/
+.nfobox {
+  display: none;
+}
+.modal li {
+    margin-bottom: 0.5em;
+}
+
+.modal footer {
+    text-align: center;
+    border-top: 1px solid #454C5A;
+    padding: 1em;
+}
+
+#modal-main-menu {
+    visibility: hidden;
+    z-index: 2;
+}
+
+.modal {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    opacity: 1;
+    transition: all 0.35s ease-in;
+}
+
+.modal-content {
+    position: relative;
+    padding: 2rem;
+    max-width: 50%;
+    max-height: 60%;
+    border-radius: 5px;
+    background-color: #CCC;
+    overflow: auto;
+    border: 1px solid black;
+    cursor: default;
+}
+
+.modal-menu-content {
+    position: relative;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    background-color: #454C5A;
+    overflow: auto;
+    border: 1px solid black;
+    cursor: default;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content-caption {
+    max-width: 50vw;
+    max-height: 80vh;
+    background-color: rgba(255,255,255,0.5);
+    overflow: auto;
+    cursor: default;
+    font-style: italic;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+/************************
+ * Decorations
+ ************************/
+.error {
+    color: #CD5C5C;
+}
+
+/************************
+ * Animations
+ ************************/
+
+/************************
+ * Media
+ ************************/
+
